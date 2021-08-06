@@ -27,3 +27,9 @@ jobs:
       with:
         name: assets-for-download
         path: downloads
+
+    - name: curl
+      uses: wei/curl@v1
+      with:
+        args: https://api.github.com/repos/CarlLo01/hello-github-actions/actions/artifacts/69794324/zip
+        #https://api.github.com/repos/CarlLo01/hello-github-actions/actions/artifacts/69794324/zip
